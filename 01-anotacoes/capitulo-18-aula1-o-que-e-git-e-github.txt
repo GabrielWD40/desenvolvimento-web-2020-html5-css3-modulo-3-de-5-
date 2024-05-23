@@ -1,0 +1,22 @@
+Repositórios são locais aonde armazenamos algo.
+
+
+
+    O QUE É GIT?
+
+O git é bem útil para fazer o controle de versão dos seus códigos após atualizações. 
+Isso é muito usado quando precisamos modificar uma página e voltar a versão anterior por conta de erros e coisas do tipo.
+
+O fit vai armazenar as versões do seu código, ele vai ser como um histório que mostra ao usuário todas as midificações feitas ao longo do tempo.
+
+é importante lembrar que o git vai manter essas versões dentro da nossa própria máquina.
+
+
+    O QUE É GITHUB?
+
+É um backup de arquivos remoto, serve para você hospedar o seu código em um serviço de nuvem.
+
+
+
+Repositório local → git ();
+Repositório remoto → github (PUSH);
