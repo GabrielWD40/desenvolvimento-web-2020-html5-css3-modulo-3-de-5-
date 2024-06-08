@@ -1,0 +1,12 @@
+body{
+    background-image: url("../imagens/mascote.png");
+}
+
+.caixa-de-texto{
+    padding: 20px;
+    background-color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: orangered;
+    
+}

@@ -1,0 +1,76 @@
+.caixa-de-texto{
+    background-color: black;
+    color: skyblue;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.bloco{
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+    background-image: url('../imagens/mascote.png');
+    background-size: 100px; /*Tanto a altura quanto a largura  terão 100px*/
+    text-align: center;
+}
+
+div#quadrado0{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+div#quadrado1{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: left top;
+}
+
+div#quadrado2{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: left center;
+}
+
+div#quadrado3{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: left bottom;
+}
+
+div#quadrado4{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: Top center;  
+}
+
+div#quadrado5{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: bottom center;  
+}
+
+div#quadrado6{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: top right;  
+}
+
+div#quadrado7{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: right center;  
+}
+
+div#quadrado8{
+    height: 50vh;
+    background-repeat: no-repeat; 
+    background-position: right bottom;  
+}
+
+
