@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+:root{
+    --cor1: black;
+    --cor2: white;
+
+    --font-padrao: sans-serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--cor1);
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: var(--cor2);
+    font-family: var(--font-padrao);
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    margin: auto;
+}
+

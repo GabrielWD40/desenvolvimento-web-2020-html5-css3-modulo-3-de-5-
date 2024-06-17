@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Centralizando uma coisa verticalmente</title>
+</head>
+<body>
+    <h1>Nessa aula nós vamos aprender a como centralizar uma div</h1>
+    <br>
+    <p><strong>LEMBRETE: Para centralizar verticalmente é necessáio ter um "container" e um "conteúdo." </strong></p>
+    <p>O container deve ter o posicionamento relativo, enquanto o posicionamento do conteúdo deve ser absoluto.</p>
+    <p>Feito isso, nós conseguimos configurar a distância da esquerda e do topo.  </p>
+    <br>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    <br>
+    <p>Após isso, vamos colocar a caixa com posicionamento de top e left de 50%, o que irá jogar esse elemento para o centro do container.</p>
+    <p>Aí você precisará usar a propriedade <strong><br>
+        <code>
+            transform: translate(-50%, -50%);
+        </code>
+    </strong></p>
+    <br>
+    <p>Existem muitas propriedades dentro do transform. Mas essa aí serve para conseguirmos mover um elemento. 
+        <strong>Você precisa se lembrar que: <br>
+        <ul>
+            <li> <mark>
+                O primeiro valor vai alterar o lado esquerdo. <br>
+                Valores negativos puxam ele para a esquerda, positivos jogam ele para a direita.
+            </mark></li>
+            <br>
+            <li> <mark>O segundo valor vai alterar para cima ou para baixo. Se você usar valores positivos, o elemento será realocado para baixo. Se usar valores negativos, o elementos será alocado para cima.</mark></li>
+        </ul></p>
+        <br>
+        <p>Veja que o elemento sempre ficara no centro mesmo que o tamanho da caixa pai seja alterado.</p></strong>
+    <br>
+    <br>
+    <br>
+    <br>/
+
+</body>
+</html>

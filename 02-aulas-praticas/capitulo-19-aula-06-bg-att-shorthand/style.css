@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* background-image: url(../imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed; */
+
+    background: black url(../imagens/wallpaper002.jpg) top center no-repeat fixed ;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
