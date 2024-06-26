@@ -1,0 +1,44 @@
+@charset "UFT-8";
+
+/* ------------------------------------------------------ CONFIGURAÇÕES DE RESET DE ESTILO ------------------------------------------------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------------------------------ ESTILIZANDO O NOSSO HTML -------------------------------------------------------- */
+
+/* CENTRALIZANDO O CONTEÚDO NO MEIO DA PÁGINA */
+section.conteúdo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MODIFICANDO O ESTILO DA NOSSA TABELA*/
+table{
+    border-collapse: collapse;
+}
+
+/* DEFININDO O ESTILO DO CAPTION*/
+caption{
+    font-weight: bolder;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* DEFININDO O ESTILO DAS CÉLULAS DE DADOS E CABEÇALHO  */
+th, td{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}

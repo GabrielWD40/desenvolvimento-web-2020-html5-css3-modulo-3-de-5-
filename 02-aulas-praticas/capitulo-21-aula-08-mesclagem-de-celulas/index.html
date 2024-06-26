@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Anatomia das tabelas grandes</title>
+</head>
+<body>
+    <main>
+        <h1>MESCLAGEM DE CÉLULAS EM TABELAS</h1>
+        <p>Nessa aula, nós vamos aprender a usar o efeito de mesclagem de tabelas, tanto mesclagem de lihas quanto mesclagem de colunas.</p>
+
+        <p><strong><mark>Para mesclar colunas, usamos o efeito colspan</mark></strong></p>
+    
+        <p><strong> <mark>Para mesclar linhas usamos o efeito rowspan</mark>
+        </strong></p>
+
+        <p>É bem simples, você vai na célula que deseja e aplica os atributos acima.</p>
+
+        <br>
+
+        <table>
+            <caption>MESCLANDO CÉLULAS DA TABELA</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Aluno</th>
+                    <th scope="col">Nota 1º semestre</th>
+                    <th scope="col">Nota 2º semestre</th>
+                    <th scope="col">Nota 3º semestre</th>
+                    <th scope="col">Média final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria Antonieta</td>
+                    <td colspan="4">Transferida!</td>
+                </tr>
+                <tr>
+                    <td>João Porqueira</td>
+                    <td>0.0</td>
+                    <td>0.5</td>
+                    <td>0.4</td>
+                    <td>0.3</td>
+                </tr>
+                <tr>
+                    <td>Cláudia Leite</td>
+                    <td>8.6</td>
+                    <td>9.4</td>
+                    <td>9.0</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>Deide Costas</td>
+                    <td>4.0</td>
+                    <td colspan="3">Desistente</td>
+                </tr>
+                <tr>
+                    <td>Eva Gabunda</td>
+                    <td>8.6</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>Fabiano Chu Passeios</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td rowspan="2">Escola responsável <br> Diretor encarregado</td>
+                    <td colspan="4">Escola Particular BicadoSapo 2.0</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Gabriel Silva do Terror</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

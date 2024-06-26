@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tabelas em HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Minha primeira tabela em HTML</h1>
+        <p>A hierarquia de tabelas funciona da seguinte mandeira:</p>
+        <code style="font-size: 1.4em;">
+            <strong>
+                <pre>
+                &lt;table&gt; = TABELA
+                    ROW TABLE = LINHAS DE TABELA
+                        TABLE HEADER = CABEÇALHO DE TABELA
+                        TABLE DATA = DADO DE TABELA
+                &lt;/table&gt;
+                </pre>
+            </strong>
+        </code>
+        <br>
+
+        <p>No exemplo do professor Gustavo, ele mostra uma tabela no Excel, veja só:</p>
+        <img src="ex.png" alt="tabela de exemplo do vídeo do professor gustavo guanabara">
+        <br><br><br>
+
+        <h2>Criando a nossa primeira tablea: </h2>
+        <table>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr class="colorido">
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td class="dado">A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+        <br>
+        <p><mark>LEMBRETE: depois disso, você vai ter que definir o estilo na folha CSS, porque não funciona mais inline como nós haviamos aprendido lá no colégio. Agora ele fica vermelho, o que indica que vai funcionar, mas ta ERRADO!</mark></p>
+        
+        <br>
+
+        <p><mark>LEMBRETE 2: Na versão 5 do HTML, você não precisa fechar as tags &lt;tr&gt; e &lt;tf&gt;, elas são opcionais. Mas cuidado para não errar. <br>
+        Outra coisa, se você não coloca as Tags certas, o conteúdo vai ficar antes ou depois da tabela. Cuidado com esse erro!</mark></p>
+        <br>
+        <p>Você consegue personalizar tudo o que quiser dentro da tabela, basta informar o elemento certo.</p>
+    </main>
+</body>
+</html>

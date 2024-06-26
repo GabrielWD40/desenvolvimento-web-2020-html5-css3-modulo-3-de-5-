@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    color: green;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#desafio1{
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+table{
+    width: 500px;
+  
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    padding: 20px;
+    border: 3px solid green;
+    font-weight: bolder;
+}
