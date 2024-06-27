@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>USANDO O COLGROUP</title>
+</head>
+<body>
+    <article>
+        <p>Nessa aula nós falaremos sobre a tag <strong>COLGROUP</strong>. <br> 
+            Essa tag é útil para estilizarmos uma coluna por inteiro sem ficar inserindo classes / id linha a linha. <br>
+            Isso torna o nosso código mais legível e mais fácil de manusear.</p>
+        <p>Exemplo dessa nova tag: </p>
+        <pre style="text-align: left">
+        <p><code>
+            &lt;colgroup&gt;
+                &lt;col class="nome-da-classe-da-coluna-1"
+                &lt;col class="nome-da-classe-da-coluna-2"
+                &lt;col class="nome-da-classe-da-coluna-3"
+                &lt;col class="nome-da-classe-da-coluna-4 span 2"
+                    no exemplo acima, a coluna 4 e 5 terão o mesmo efeito
+            &lt;/colgroup&gt;
+        </code></p>
+        </pre>
+        <p>É importante lembrar que o número de colunas deve ser o mesmo que as estilizações no colgroup. Se não for, você precisa usar a propriedade <strong>span</strong> para que ele aplique o mesmo estilo a mais de uma coluna, ok?</p>
+    </article>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade-profissao" span="2">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria Braga</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>f</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>

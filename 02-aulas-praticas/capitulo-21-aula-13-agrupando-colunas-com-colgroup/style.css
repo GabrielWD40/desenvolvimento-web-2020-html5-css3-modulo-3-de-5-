@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------ CONFIGURAÇÕES DE RESET DE ESTILO ------------------------------------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+/* ------------------------------------------------------------ ESTILIZANDO O NOSSO HTML -------------------------------------------------------- */
+
+/* ESTILIZANDO O TEXTO DA NOSSA PÁGINA */
+article{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+/* ESTILIZANDO A TABELA */
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* ESTILIZANDO AS CÉLUAS DE CABEÇALHO E DE DADOS */
+th, td{
+    padding: 10px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* ESTILIZANDO AS CLASSES DAS COLUNAS DA NOSSA TABELA */
+col.nome{
+    background-color: lightgreen;
+}
+
+col.sexo{
+    background-color: lightblue;
+}
+
+col.idade-profissao{
+    background-image: linear-gradient(to bottom, yellow, purple);
+}
+

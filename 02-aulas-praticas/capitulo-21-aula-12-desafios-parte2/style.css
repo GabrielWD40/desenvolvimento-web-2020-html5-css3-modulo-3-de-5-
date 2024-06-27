@@ -8,6 +8,7 @@
 
 body{
     height: 100vh;
+    background-color: rgba(0, 124, 165, 0.396);
 }
 
 
@@ -28,3 +29,10 @@ th, td{
     width: 100px;
     border: 1px solid blue;
 }
+
+/* ESTILIZANDO O CABEÇALHO, RODAPÉS E LINHAS DE MÉDIA DA NOSSA TABELA */
+thead, tfoot, .media{
+    background-color: skyblue;
+    color: darkblue;
+}
+
