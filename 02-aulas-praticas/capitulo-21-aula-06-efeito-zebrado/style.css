@@ -39,11 +39,13 @@ thead, tfoot{
 }
 
 tbody > tr:nth-child(odd){
-    background-color: lightgray;
+    background-color: rgb(254, 140, 140);
+    color: red;
 }
 
 tbody > tr:nth-child(even){
-    background-color: darkgrey;
+    background-color: lightgreen;
+    color: darkgreen    ;
 }
 
 td.num{
