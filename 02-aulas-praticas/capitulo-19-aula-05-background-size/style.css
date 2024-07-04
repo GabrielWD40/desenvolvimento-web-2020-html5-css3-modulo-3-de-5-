@@ -22,8 +22,8 @@ body{
 main{
     background-color: var(--cor2);
     font-family: var(--font-padrao);
-    padding: 10px;
-    width: 400px;
+    padding: 20px;
+    width: 600px;
     border-radius: 10px;
     margin: auto;
 }
